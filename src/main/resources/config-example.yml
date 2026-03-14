@@ -1,0 +1,17 @@
+# WoodsPixelCore example configuration
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: woodspixelcore
+  username: your_user
+  password: your_password
+  ssl: false
+
+island:
+  max-members: 5
+  upgrade-cost: 10000.0
+  default-world: world
+
+minion:
+  collection-interval-seconds: 30
+  max-minions-per-player: 25
