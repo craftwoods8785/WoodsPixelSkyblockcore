@@ -1,0 +1,23 @@
+name: WoodsPixelCore
+version: '1.0.0'
+main: com.woodspixel.core.WoodsPixelCore
+api-version: '1.21'
+author: Craftwoods8785
+description: WoodsPixel SkyBlock core systems inspired by SkyBlock gameplay.
+commands:
+  wp:
+    description: Open the WoodsPixel main menu.
+    usage: /wp
+  is:
+    description: Teleport to your WoodsPixel island.
+    usage: /is
+  player:
+    description: View WoodsPixel player stats.
+    usage: /player
+  minion:
+    description: Manage WoodsPixel minions.
+    usage: /minion [create <type>]
+permissions:
+  woodspixel.admin:
+    description: Full WoodsPixel admin permission.
+    default: op
